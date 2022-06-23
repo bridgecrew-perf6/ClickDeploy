@@ -229,6 +229,17 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>My_Custom_Date_Field__c</fullName>
+        <defaultValue>Today()</defaultValue>
+        <description>Great Description</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Helpful Text</inlineHelpText>
+        <label>My Custom Date Field</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
